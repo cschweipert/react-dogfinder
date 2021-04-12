@@ -5,7 +5,6 @@ import './App.css';
 import { BrowserRouter } from "react-router-dom";
 
 import Routes from './Routes';
-
 import Nav from './Nav';
 
 import whiskey from './img/whiskey.jpg';
@@ -65,6 +64,8 @@ const dogs = [
         "Angelina used to hate Tubby, but claims not to anymore."
       ]
     }
-  ]
+  ];
+
+App.defaultProps = { dogs };
 
 export default App;
